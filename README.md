@@ -1,6 +1,6 @@
 # ⚡ Smart Energy Monitoring & Prediction System
 
-A Machine Learning and Deep Learning based web application that predicts electricity consumption, cost, carbon emission, and forecasts future energy usage using Streamlit.
+A Machine Learning and Deep Learning based web application that predicts electricity consumption, cost, carbon emission, and forecasts future energy usage.
 
 ---
 
@@ -8,20 +8,22 @@ A Machine Learning and Deep Learning based web application that predicts electri
 
 This project analyzes smart electricity usage data and provides:
 
-✅ Energy Consumption Prediction (ML Model)  
-✅ Cost & Carbon Emission Estimation  
+✅ Energy Consumption Prediction (Machine Learning)  
+✅ Cost Estimation  
+✅ Carbon Emission Calculation  
 ✅ Future Energy Forecasting using LSTM  
-✅ Interactive Web Interface using Streamlit  
+✅ Simple Web Interface using Flask  
 
 ---
 
 ## 🧠 Technologies Used
 
 - Python
-- Streamlit
+- Flask
 - Scikit-learn
 - TensorFlow / Keras
-- Pandas & NumPy
+- Pandas
+- NumPy
 - Joblib
 
 ---
