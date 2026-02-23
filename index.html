@@ -1,0 +1,19 @@
+<h2>Smart Energy Prediction</h2>
+
+<form action="/predict" method="post">
+Current: <input name="current"><br>
+Temperature: <input name="temperature"><br>
+Month: <input name="month"><br>
+Day: <input name="day"><br>
+Hour: <input name="hour"><br>
+Usage Hours: <input name="usage"><br>
+<input type="submit">
+</form>
+
+{% if energy %}
+Energy: {{energy}} kWh<br>
+Cost: ₹ {{cost}}<br>
+Carbon: {{carbon}} kg
+{% endif %}
+
+<a href="/forecast">Forecast Page</a>

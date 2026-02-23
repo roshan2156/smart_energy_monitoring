@@ -1,0 +1,15 @@
+<h2>Energy Forecast</h2>
+
+<form action="/forecast_result" method="post">
+Enter last 7 days energy (comma separated):
+<input name="history">
+<input type="submit">
+</form>
+
+{% if forecast %}
+<ul>
+{% for v in forecast %}
+<li>{{v}}</li>
+{% endfor %}
+</ul>
+{% endif %}
